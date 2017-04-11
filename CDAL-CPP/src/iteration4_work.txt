@@ -1,0 +1,12 @@
+Garrett Sundin (sundi024):
+	Filled in many of the AST.h classes,
+	all of the comments in the code,
+	filled in parser.cpp functions to comply with AST.h,
+	finished fixing the last of the parse errors,
+	edited the Makefile to run codegeneration_tests.
+
+Benjamin Zhang (zhan2736):
+	Set up files, including this iteration4_work.txt file. 
+    Fixed some extraneous token errors (notably print ("\n") ).
+    Worked a lot in the AST tests, creating many of the AST classes.
+    Did work in Parser.cpp and trying to get it up and running.

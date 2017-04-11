@@ -1,0 +1,12 @@
+\*.o
+*~
+*.nfs*
+cxxtest.tar
+*.out
+*.save
+*.save.*
+*.dslup1
+*.dslup2
+*.dslup3
+html
+latex
