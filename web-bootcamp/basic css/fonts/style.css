@@ -1,0 +1,62 @@
+/*font-family*/
+
+p {
+	font-family: courier;
+}
+
+h1 {
+	font-family: Open Sans;
+}
+
+.majormono {
+	font-family: Major Mono Display;
+}
+
+/*font-size*/
+
+h1 {
+	font-size: 64px;
+	/*Font size units:
+	  px = pixel (absolute)
+	  em = emphemeral unit (relative)*/
+}
+
+span {
+	font-size: 2.0em;
+}
+
+p {
+	font-size: 1.0em;
+}
+
+/*font-weight*/
+
+p {
+	font-weight: bold;
+	/*Certain fonts will let you use a numerical
+	  between 100-800.
+	  Can also be bold, normal, etc.*/
+}
+
+/*line-height*/
+
+p {
+	line-height: 1.5;
+	/*The vertical space between lines*/
+}
+
+/*text-align*/
+
+h1 {
+	text-align: center;
+}
+
+/*text-decoration*/
+
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}

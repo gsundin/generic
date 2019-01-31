@@ -1,0 +1,33 @@
+/*element*/
+
+li {  }
+
+/*class*/
+
+.hello {  }
+
+/*id*/
+
+#name {  }
+
+/*star*/
+
+* { border: 1px solid lightgrey; } /*this applies to everything in the page*/
+
+/*descendant selector*/
+
+li a { color: red; } /*this applies to every 'a' nested within a list item*/
+
+/*adjacent selector*/
+
+h4 + ul { border: 4px solid red; } /*applies to everything directly after every h4*/
+
+/*attribute selector*/
+
+a[href="http://www.google.com"] { background: yellow; } /*applies to all links to google*/
+input[type="checkbox"] {  } /*applies to all checkboxes*/
+
+/*nth of type*/
+
+ul:nth-of-type(even) { background: purple; } /*selects every even-numbered unordered list*/
+li:nth-of-type(3) { background: green; } /*selects the nth of specified element*/

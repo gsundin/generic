@@ -1,0 +1,40 @@
+p {
+	/*Content - width and height*/
+
+	width: 200px;
+	height: 300px;
+
+	/*Border*/
+
+	border: 2px solid blue;
+
+	/*Padding*/
+
+	padding: 10px;
+
+	/*Margin*/
+
+	/*margin: 20px 40px 500px 100px;*/\
+	margin: 0 auto 0 auto;
+	/*"auto" adjusts margin dynamically*/
+
+}
+
+
+
+
+
+
+
+.relative-image {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+}

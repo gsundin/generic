@@ -1,0 +1,15 @@
+h1 {
+	font-family: monospace;
+	font-size: 4.0em;
+	text-transform: uppercase;
+	margin-left: 1.66%;
+	border-bottom: 1px solid grey;
+	padding-bottom: 1.66%;
+	width: 50%;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
