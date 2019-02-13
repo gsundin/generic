@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "bubbleboddy";
+	src: url('fonts/Bubbleboddy.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/Bubbleboddy.woff') format('woff'), /* Modern browsers */
+			 url('fonts/Bubbleboddy.eot'); /* IE9 compatibility modes */
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url(images/bubblegum.jpg);
+	background-size: cover;
+	background-position: top 500px;
+	font-family: 'Lato', sans-serif;
+}
+
+hr {
+	width: 75%;
+	border-top: 1px solid indigo;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	opacity: 0.5;
+}
+
+.bubble {
+	font-family: bubbleboddy;
+	font-size: 6em;
+	text-shadow: -2px 2px 0px hotpink,
+					 		  0px 4px 3px rgba(0,0,0,0.4),
+							  0px 8px 13px rgba(0,0,0,0.1),
+					 		  0px 18px 23px rgba(0,0,0,0.1);
+					 		  /* Smooth 3D shadow after 2D hotpink shadow */
+}
+
+.indigo {
+	color: indigo;
+}
+
+#pink {
+	color: hotpink;	
+}
+
+#pink:hover {
+	color: pink;
+}
+
+#content {
+	text-align: center;
+	padding-top: 15%;
+}
