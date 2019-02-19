@@ -1,0 +1,80 @@
+body {
+    background: #f5d9d5;
+    font-family: Nunito;
+}
+
+h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+#main-navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#main-navbar .nav-link {
+    color: white;
+}
+
+#main-navbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#main-navbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    /* font-family: Coiny; */
+}
+
+#heading-group span {
+    color: #EA1C2C;
+}
+
+#heading-group h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #heading-group h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.icon {
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.inverse {
+    background: inherit;
+    -webkit-background-clip: text;
+                    background-clip: text;
+    color: transparent;
+    filter: invert(1);
+}
+
+.navbar.scrolled {
+    background: rgba(222,192,222,0.85);
+    transition: background 400ms
+}
